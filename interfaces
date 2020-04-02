@@ -14,11 +14,11 @@ iface eth0 inet static
 	gateway 136.243.250.120
 	# dns-* options are implemented by the resolvconf package, if installed
 	dns-nameservers 1.1.1.2 1.0.0.2
+	
 #IPV6 static configuration
 iface eth0 inet6 static
-pre-up modprobe ipv6 
-address 2a01:4f8:173:2166::5
-netmask 64
-gateway 2a01:4f8:173:2166::2
-
+	pre-up modprobe ipv6 
+	address 2a01:4f8:173:2166::5
+	netmask 64
+	gateway 2a01:4f8:173:2166::2
 # END IPV6 configuration
