@@ -13,7 +13,7 @@ iface eth0 inet static
 	address 136.243.250.122/28
 	gateway 136.243.250.120
 	# dns-* options are implemented by the resolvconf package, if installed
-	dns-nameservers 1.1.1.2 1.0.0.2
+	dns-nameservers 1.1.1.1 1.0.0.1
 	
 #IPV6 static configuration
 iface eth0 inet6 static
